@@ -1,0 +1,5 @@
+Platanus version: 1.2.4
+platanus assemble -o Poil -f sub1.fastq.trimmed sub2.fastq.trimmed 
+
+Error(1): File not open exception!!
+sub1.fastq.trimmed is not open!!

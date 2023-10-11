@@ -1,0 +1,26 @@
+[2023-10-11 22:52:25,732] multiqc                                            [DEBUG  ]  This is MultiQC v1.13
+[2023-10-11 22:52:25,733] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc -o multiqc_trimmed fastqc_trimmed
+[2023-10-11 22:52:26,198] multiqc                                            [WARNING]  MultiQC Version v1.16 now available!
+[2023-10-11 22:52:26,198] multiqc                                            [DEBUG  ]  Working dir : /home/vkvasilev
+[2023-10-11 22:52:26,198] multiqc                                            [DEBUG  ]  Template    : default
+[2023-10-11 22:52:26,198] multiqc                                            [DEBUG  ]  Running Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+[2023-10-11 22:52:26,198] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2023-10-11 22:52:26,198] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpwjtfo2r1
+[2023-10-11 22:52:26,266] multiqc                                            [INFO   ]  Search path : /home/vkvasilev/fastqc_trimmed
+[2023-10-11 22:52:26,504] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 46] // [skipped_no_match: 6]
+[2023-10-11 22:52:26,703] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.6.0
+[2023-10-11 22:52:26,703] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.6.0
+[2023-10-11 22:52:26,704] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2023-10-11 22:52:26,707] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'matep2_fastqc.zip' as already parsed 'matep2'
+[2023-10-11 22:52:26,707] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: sub2
+[2023-10-11 22:52:26,711] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 4 reports
+[2023-10-11 22:52:26,712] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'sub1'
+[2023-10-11 22:52:26,712] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'matep2'
+[2023-10-11 22:52:26,712] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'sub2'
+[2023-10-11 22:52:26,738] multiqc                                            [INFO   ]  Compressing plot data
+[2023-10-11 22:52:26,760] multiqc                                            [WARNING]  Previous MultiQC output found! Adjusting filenames..
+[2023-10-11 22:52:26,760] multiqc                                            [WARNING]  Use -f or --force to overwrite existing reports instead
+[2023-10-11 22:52:26,760] multiqc                                            [INFO   ]  Report      : multiqc_trimmed/multiqc_report_1.html
+[2023-10-11 22:52:26,760] multiqc                                            [INFO   ]  Data        : multiqc_trimmed/multiqc_data_1
+[2023-10-11 22:52:26,760] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpwjtfo2r1/multiqc_data' to 'multiqc_trimmed/multiqc_data_1'
+[2023-10-11 22:52:26,810] multiqc                                            [INFO   ]  MultiQC complete
